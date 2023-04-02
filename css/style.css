@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border:2px solid rgb(252, 0, 0);
+}
+.nav{
+    background-color: lawngreen;
+    height: 50px;
+    border-radius: 20px;
+    margin: 25px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 15px;
+    height: 50px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 15px;
+    line-height: 30px;
+}
+.nav a:hover{
+    background-color: white;
+    color: greenyellow;
+    height: 100%;
+    display: inline-block;
+    
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+h2{
+    text-align: center;
+    color: orangered;
+}
+p{
+    color: rgb(255, 97, 40);
+    text-indent: 30px;
+    margin: 25px;
+}
+p a{
+    color: green;
+}
+iframe{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+video{
+    margin-left: 25px;
+    margin-bottom: 25px;
+   
+}
